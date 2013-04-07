@@ -1,0 +1,21 @@
+%h1 Colors
+
+.section
+  .header
+    %span.desc How do you change the background color?
+    .expand +
+  .body.hide
+    %p
+      Type the following to change the background color
+      to orange. You can replace orange with any color you like.
+
+    .code
+      .copy{'data-clipboard-text' => 'ask patches [ set pcolor orange ]'}
+      ask patches [ set pcolor orange ]
+
+    .tips
+      %span.strong Tip:
+      %i
+        Instead of orange try [255 0 0].
+        %br/
+        You can replace the numbers with any number from 0 to 255.

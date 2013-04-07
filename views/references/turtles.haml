@@ -1,0 +1,108 @@
+%h1 Turtles
+
+-#.bar
+  Expand All | Collapse All
+
+.section
+  .header
+    %span.desc How do you create a turtle?
+    .expand +
+  .body.hide
+    %p
+      To create a turtle type the following. You can create more than one
+      turtle by changing the number.
+    .code
+      .copy{'data-clipboard-text' => 'create-turtles 1'}
+      create-turtles 1
+
+.section
+  .header
+    %span.desc How do you move the turtle forward?
+    .expand +
+  .body.hide
+    %p
+      Increasing the number will make the turtle move faster.
+    .code
+      .copy{'data-clipboard-text' => 'ask turtles [ forward 20 ]'}
+      %p ask turtles [ forward 20 ]
+    = partial 'references/tips', tip: 'You can move the turtle backwards by typing back instead of forward.'
+
+.section
+  .header
+    %span.desc Telling the turtle to move in another direction
+    .expand +
+  .body.hide
+    %p
+      Specify a direction, either left or right to turn the turtle.
+      The number corresponds to an angle you want to rotate the turtle.
+      You can specify any number from 0 to 360.
+    .code
+      %p ask turtles [ right 90 ]
+      %p ask turtles [ left 90 ]
+
+.section
+  .header
+    %span.desc Drawing a trail
+    .expand +
+  .body.hide
+    %p
+    .code
+      %p ask turtles [ pendown ]
+      %p ask turtles [ penup ]
+
+.section
+  .header
+    %span.desc Turtle Stamping
+    .expand +
+  .body.hide
+    %p
+    .code
+      .copy{'data-clipboard-text' => 'ask turtles [ stamp ]'}
+      %p ask turtles [ stamp ]
+
+.section
+  .header
+    %span.desc Changing the turtles shape
+    .expand +
+  .body.hide
+    %p To change the turtle into an airplane type the following.
+    .code
+      .copy{'data-clipboard-text' => 'ask turtles [ set shape "airplane" ]'}
+      ask turtles [ set shape "airplane" ]
+    %p Type the following to see a list of all the shapes you can change the "turtle" to.
+    .code
+      .copy{'data-clipboard-text' => 'show shapes'}
+      show shapes
+
+.section
+  .header
+    %span.desc Changing the turtles size
+    .expand +
+  .body.hide
+    %p Increasing the number makes the turtle larger
+    .code
+      .copy{'data-clipboard-text' => 'ask turtles [ set size 10 ]'}
+      ask turtles [ set size 10 ]
+
+.section
+  .header
+    %span.desc Changing the turtles color
+    .expand +
+  .body.hide
+    %p
+      Type the following to make the turtle green.
+    .code
+      .copy{'data-clipboard-text' => 'ask turtles [ set color green ]'}
+      ask turtles [ set color green ]
+
+.section
+  .header
+    %span.desc Setting the turtle to a specific coordinate
+    .expand +
+  .body.hide
+    %p
+      Move all turtles to x position 50 and y position 100.
+    .code
+      .copy{'data-clipboard-text' => 'ask turtles [ set 50 100 ]'}
+      ask turtles [ set 50 100 ]
+    = partial 'references/tips', tip: 'to set them to a random cordinate use [ set random-xcor random-ycor ]'

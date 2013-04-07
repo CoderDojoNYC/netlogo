@@ -1,0 +1,22 @@
+%h1 Miscellaneous
+
+.section
+  .header
+    %span.desc Resetting and starting over
+    .expand +
+  .body.hide
+    %p
+      Sometimes you just want to start over and work with a blank canvas. To do that type the following.
+    .code
+      clear-all
+
+.section
+  .header
+    %span.desc Repeating Commands
+    .expand +
+  .body.hide
+    %p
+      Loops
+    .code
+      ask turtles [ repeat 6 [ forward 5 ] ]
+    = partial 'references/tips', tip: 'this does the same thing as [ ask turtles [ forward 30 ] ]'

@@ -1,0 +1,18 @@
+!!!
+%html
+  %head
+    %title NetLogo
+    %link{href: '/stylesheets/bootstrap.css', rel: 'stylesheet', type: 'text/css'}
+    %link{href: '/stylesheets/flat-ui.css', rel: 'stylesheet', type: 'text/css'}
+    %link{:rel => 'stylesheet', :href => '/screen.css', :type => 'text/css', :media => 'screen, projection'}
+    %script{src: '//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'}
+    %script{src: '/javascripts/jquery.pjax.js'}
+    %script{src: '/javascripts/ZeroClipboard.min.js'}
+    %script{src: '/application.js'}
+
+  %body
+    #navigation
+      = partial 'navigation'
+
+    #content
+      = yield

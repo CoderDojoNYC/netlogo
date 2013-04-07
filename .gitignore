@@ -1,0 +1,4 @@
+*.sw[a-Z]
+.DS_Store
+.sass-cache/
+.gems

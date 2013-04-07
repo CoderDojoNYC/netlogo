@@ -1,0 +1,97 @@
+# Lesson 2 ( Moving the Turtle with the Keyboard )
+---
+
+**Primary Objective**: To use the keyboard to move around a turtle.
+
+**Seconary Objective**: To make turtles move around randomly on their own.
+
+### Step 1 - Adding a Button
+Select the `Button` from the interface items dropdown.
+
+![placehold](/images/lesson2/image-1.png)
+
+The add button should be selected as shown below. If not select it.
+
+![placehold](/images/lesson2/image-2.png)
+
+Now let's add the button to our application. To do this click anywhere in the
+white area next to main view (black screen where the turtles area).
+
+![placehold](/images/lesson2/image-3.png)
+
+A menu should have popped up allowing you to add commands to your button.
+
+![placehold](/images/lesson2/image-4.png)
+
+If it didn't you can right click on the button to bring up the menu.
+
+![placehold](/images/lesson2/image-5.png)
+
+
+----
+
+
+### Step 2 - Adding Commands to the Button
+We want this button to make the turtles turn left when the user clicks on it.
+To do this we'll need to give the button a command. Type `ask turtles [ left
+20]` into the textarea beneath the `Commands` label. Type `left` into the
+display label and assign the action key `A`.
+
+![placehold](/images/lesson2/image-6.png)
+
+*Tip: Try changing around the speed at which the turtle changes and changing the action key*
+
+Okay, now we want to test out this button. In order to do this we need to
+create a turtle. Type `create-turtles 1` into the `Command Center`.
+
+![placehold](/images/lesson2/image-7.png)
+
+Now you should see something similar to this. Don't worry if the arrow points
+in another direction of the color is different.
+
+![placehold](/images/lesson2/image-8.png)
+
+If you press the button, the turtle should move to the left. If it didn't work
+go back to the beginning of step 1 and make sure you followed the instructions
+completely.
+
+
+----
+
+
+### Step 3 - Rinse and Repeat
+Now we need to make the turtle move right, forward and backwards. To do this we
+basically repeat Step 2, with a few minor adjustments. Instead of `left`, you
+would use the keyword `right`, `back` or `forward`.
+
+    > Reference Chart
+    -------------------------------------------------------
+    | Direction        | Display         | Action Key     |
+    -------------------------------------------------------
+    | left             | left            | A              |
+    | right            | right           | D              |
+    | forward          | up              | W              |
+    | back             | down            | S              |
+    -------------------------------------------------------
+
+#### Right
+
+![placehold](/images/lesson2/image-9.png)
+
+#### Down
+
+![placehold](/images/lesson2/image-10.png)
+
+#### Up
+
+![placehold](/images/lesson2/image-11.png)
+
+
+----
+
+#### Adaptations
+* Try adding a second turtle with it's own keyboard shortcut keys `j, k, l, i`
+* Avoid Stationary Obstacles
+* Asteroids
+
+----

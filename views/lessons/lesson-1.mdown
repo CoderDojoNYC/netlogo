@@ -3,7 +3,7 @@
 
 Open NetLogo and select the `Interface` tab. Select the textbox at the bottom of the `Command Center` to input commands. The two sections are highlighted in red.
 
-![placeholder](/images/lesson1/interface_inputbox.png)
+![placeholder](images/lesson1/interface_inputbox.png)
 
 This is how you make a turtle:
 
@@ -25,7 +25,7 @@ To see a list of shapes, you can run `show shapes`
 
 Let's see what we have so far:
 
-![placeholder](/images/lesson1/intro.png)
+![placeholder](images/lesson1/intro.png)
     
 Now let's ask the turtle to move forward `5 steps` and then turn right `60` degrees. I hope you guys remember your shapes. It's especially useful if you remember how big the angles of the shape are.
 
@@ -34,7 +34,7 @@ Now let's ask the turtle to move forward `5 steps` and then turn right `60` degr
 
 Your turtle should look like this:
 
-![placeholder](/images/lesson1/step1.png)
+![placeholder](images/lesson1/step1.png)
 
 We can combine the 2 instructions to one line as follows.
 
@@ -46,7 +46,7 @@ Alright, why don't we tell this turtle to repeat the last instruction 3 more tim
 
 Why don't we look at what we have so far? 
 
-![placeholder](/images/lesson1/step2.png)
+![placeholder](images/lesson1/step2.png)
 
 It looks like we almost have a shape. What shape does this look like?  Why don't we complete the shape? What instructions do we need to give to complete the shape?
 
@@ -63,21 +63,21 @@ We can even keep telling the turtles to repeat what they're repeating. Something
 
 You should get something like this.
 
-![placeholder](/images/lesson1/starinhexagon.png)
+![placeholder](images/lesson1/starinhexagon.png)
 
 Very pretty, isn't it?
 
 ### Whoa, what just happened? Why don't we watch that again in slow motion. Move the slider near the top to slow down the speed. Currently it's at normal speed, but if we move it to the left, we can make it slower.
 
-![placeholder](/images/lesson1/normal_speed.png)
+![placeholder](images/lesson1/normal_speed.png)
 
 ### Now slower...
 
-![placeholder](/images/lesson1/slower_speed.png)
+![placeholder](images/lesson1/slower_speed.png)
 
 ### We can also make it faster. This is useful later when we have very slow animations.
 
-![placeholder](/images/lesson1/faster_speed.png)
+![placeholder](images/lesson1/faster_speed.png)
 
 We can also tell the turtle to move backwards and to the left.
 
@@ -129,37 +129,37 @@ Why don't you try the above code for 3 turtles? Or 5 turtles? Or more?
 
 #### a triangle whose side is length 4 
 
-![placeholder](/images/lesson1/triangle.png)
+![placeholder](images/lesson1/triangle.png)
 
 #### a square whose side is length 4 
 
-![placeholder](/images/lesson1/square.png)
+![placeholder](images/lesson1/square.png)
 
 #### a rhombus whose side is length 4 and with angles of `120 degrees` and `60 degrees`
 
-![placeholder](/images/lesson1/rhombus.png)
+![placeholder](images/lesson1/rhombus.png)
 
 #### a rectangle whose sides are 4 and 8 
 
-![placeholder](/images/lesson1/rectangle.png)
+![placeholder](images/lesson1/rectangle.png)
 
 ## Extras!
 
 #### CHALLENGE: a five tipped star.
 
-![placeholder](/images/lesson1/5tippedstar.png)
+![placeholder](images/lesson1/5tippedstar.png)
 
 #### BONUS ROUND: a six tipped star.
 
-![placeholder](/images/lesson1/6tippedstar.png)
+![placeholder](images/lesson1/6tippedstar.png)
 
 #### CAN'T DO THIS: 4 squares inside a square
 
-![placeholder](/images/lesson1/squaresinsquare.png)
+![placeholder](images/lesson1/squaresinsquare.png)
 
 #### ONE STEP FURTHER: 16 squares inside a square
 
-![placeholder](/images/lesson1/16squaresinsquare.png)
+![placeholder](images/lesson1/16squaresinsquare.png)
 
 Check out some of the other interesting designs you can do using Logo.
 --

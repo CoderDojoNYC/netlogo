@@ -1,4 +1,4 @@
-# Lesson 2 ( Moving the Turtle with the Keyboard )
+## Lesson 2: Moving the Turtle with the Keyboard
 ---
 
 **Primary Objective**: To use the keyboard to move around a turtle.

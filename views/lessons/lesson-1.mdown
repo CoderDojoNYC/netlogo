@@ -26,7 +26,7 @@ We can combine the 2 instructions to one line as follows.
 
 Alright, why don't we tell this turtle to repeat the last instruction 3 more times?
 
-    ask turtles [repeat 3 [forward 5 right 60 ] ]
+    ask turtles [ repeat 3 [forward 5 right 60 ] ]
 
 Why don't we look at what we have so far?
 
@@ -82,7 +82,7 @@ Okay, now we made our turtles, let's tell them to move exactly like before.
     ask turtles [ pendown ]
     ask turtles [ forward 5 ]
     ask turtles [ right 60 ]
-    ask turtles repeat 5 [ forward 5 right 60 ]
+    ask turtles [ repeat 5 [ forward 5 right 60 ] ]
 
 So what's happening? We're giving all the turtles the same set of instructions. So in this case, both turtles are moving, even though they are in different places.
 Why don't you try the above code for 3 turtles? Or 5 turtles? Or more?
@@ -92,7 +92,7 @@ Why don't you try the above code for 3 turtles? Or 5 turtles? Or more?
     ask turtles [ pendown ]
     ask turtles [ forward 5 ]
     ask turtles [ right 60 ]
-    ask turtles repeat 5 [ forward 5 right 60 ]
+    ask turtles [ repeat 5 [ forward 5 right 60 ] ]
 
 ## Time for some Exercises
 

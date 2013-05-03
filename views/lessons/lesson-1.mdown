@@ -1,4 +1,4 @@
-# Lesson 1 ( Lines and Shapes )
+## Lesson 1: Lines and Shapes
 ----
 
 Open NetLogo and select the `Interface` tab. Select the textbox at the bottom of the `Command Center` to input commands. The two sections are highlighted in red.
@@ -26,7 +26,7 @@ To see a list of shapes, you can run `show shapes`
 Let's see what we have so far:
 
 ![placeholder](images/lesson1/intro.png)
-    
+
 Now let's ask the turtle to move forward `5 steps` and then turn right `60` degrees. I hope you guys remember your shapes. It's especially useful if you remember how big the angles of the shape are.
 
     ask turtles [ forward 5 ]
@@ -44,7 +44,7 @@ Alright, why don't we tell this turtle to repeat the last instruction 3 more tim
 
     ask turtles [repeat 3 [forward 5 right 60 ] ]
 
-Why don't we look at what we have so far? 
+Why don't we look at what we have so far?
 
 ![placeholder](images/lesson1/step2.png)
 
@@ -53,11 +53,11 @@ It looks like we almost have a shape. What shape does this look like?  Why don't
 **Note**: if you make a mistake by giving the wrong instruction to the turtle, you can reset and start again by running:
 
     clear-all
-    
+
 We can even keep telling the turtles to repeat what they're repeating. Something like:
 
     clear-all
-    create-turtles 1 
+    create-turtles 1
     ask turtles [ pendown ]
     ask turtles [ repeat 6 [repeat 6 [ forward 5 right 60] right 60 ] ]
 
@@ -127,11 +127,11 @@ Why don't you try the above code for 3 turtles? Or 5 turtles? Or more?
 ## Can you make the following shapes?
 <!-- TODO make horizontal ruler more defined -->
 
-#### a triangle whose side is length 4 
+#### a triangle whose side is length 4
 
 ![placeholder](images/lesson1/triangle.png)
 
-#### a square whose side is length 4 
+#### a square whose side is length 4
 
 ![placeholder](images/lesson1/square.png)
 
@@ -139,7 +139,7 @@ Why don't you try the above code for 3 turtles? Or 5 turtles? Or more?
 
 ![placeholder](images/lesson1/rhombus.png)
 
-#### a rectangle whose sides are 4 and 8 
+#### a rectangle whose sides are 4 and 8
 
 ![placeholder](images/lesson1/rectangle.png)
 

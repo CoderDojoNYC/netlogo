@@ -1,2 +1,10 @@
 ## Lesson 0: Setup
 ---
+
+Download NetLogo 5.0.4
+
+* [Mac OS X](http://ccl.northwestern.edu/netlogo/5.0.4/NetLogo%205.0.4.dmg)
+* [Windows](http://ccl.northwestern.edu/netlogo/5.0.4/NetLogo5.0.4Installer.exe)
+* [Other](http://ccl.northwestern.edu/netlogo/5.0.4/netlogo-5.0.4.tar.gz)
+
+After you download the app, finish the installation by following the instructions from the installer.

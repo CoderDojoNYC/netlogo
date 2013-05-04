@@ -20,3 +20,31 @@
     .code
       ask turtles [ repeat 6 [ forward 5 ] ]
     = partial 'references/tips', tip: 'this does the same thing as [ ask turtles [ forward 30 ] ]'
+
+.section
+  .header
+    %span.desc Selecting individual items (turtles, links, patches)
+    .expand +
+  .body.hide
+    %p
+      Sometimes you want to target a specific turtle or a group of patches, to do this we can use the following commands.
+    .code
+      %p ask turtle 0 [ set shape "airplane" ]
+      %p ask link 0 1 [ set color brown]
+      %p ask patch 0 1 [ set pcolor orange ]
+
+
+.section
+  .header
+    %span.desc Advanced Turtles, Links, Patches Selection
+    .expand +
+  .body.hide
+    %p
+      Targeting a group of links
+    .code
+      %p ask turtles with [color = red] [set color orange]
+      %p ask links with [color = red] [set color blue]
+      %p ask patches with [pxcor > 0] [ set pcolor yellow ]
+      %p ask turtles with [(xcor > 0) and (ycor > 0) and (pcolor = green)] [ set color brown ]
+      %p ask patches at-points [[1 0] [0 1] [-1 0] [0 -1]]
+

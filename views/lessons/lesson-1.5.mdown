@@ -1,0 +1,47 @@
+## Lesson 1.5: Changing Line Shapes
+---
+
+### Step 1 - Link Shapes Editor
+Launch the `Link Shapes Editor`. To do this click on
+`Tools` in the menu bar, then select the `Link Shapes Editor`.
+
+![placehold](images/lesson1.5/tools-link-shapes-editor.png)
+
+You should see something like below.
+
+![placehold](images/lesson1.5/link-shape-editor.png)
+
+
+### Step 2 - Adding a New Line Style
+
+Now click on the `New` button.
+
+Fill in `name` with `curvy`.
+
+Fill in `curviness` with a random number.
+
+Now choose a line style for `left line`, `middle line` and/or `right line`.
+
+![placehold](images/lesson1.5/link-shape-new.png)
+
+### Step 3 - Creating Linked Turtles
+
+Let's start with creating a few linked turtles. You can do this by typing
+the command `create-turtles 5 [ create-links-with other turtles ]`
+
+![placehold](images/lesson1.5/turtles-1.png)
+
+Now let's move the turtles around so we can see the lines. Type `ask turtles
+[ forward random 150 ]` into the observer input field.
+
+![placehold](images/lesson1.5/turtles-2.png)
+
+Lastly let's change the style of the line from the boring solid line to the
+line you created in Step 2. To do this we'll use the following command `ask
+links [set shape "curvy" ]`. If you used a name different from `curvy` type that instead.
+
+![placehold](images/lesson1.5/turtles-3.png)
+
+----
+
+## Congrats! You're all done. Now try to create some cool designs with what you've learned.

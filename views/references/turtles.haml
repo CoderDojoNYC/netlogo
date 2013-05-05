@@ -106,3 +106,15 @@
       .copy{'data-clipboard-text' => 'ask turtles [ set 50 100 ]'}
       ask turtles [ set 50 100 ]
     = partial 'references/tips', tip: 'to set them to a random cordinate use [ set random-xcor random-ycor ]'
+
+.section
+  .header
+    %span.desc Making circles with turtles
+    .expand +
+  .body.hide
+    %p
+      To make a circle you would rotate and move the turtle with tiny increments
+    .code
+      %p create-turtles 1
+      %p ask turtles [ pendown ]
+      %p repeat 180 [ ask turtles [forward .1 right 2] ]

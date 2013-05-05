@@ -1,0 +1,90 @@
+## Lesson 3: (Snake)
+----
+
+### Alright, ready for something harder?
+
+Let's try to make the game of Snake.
+
+Here's the initial setup:
+
+    breed [ heads head ]
+    breed [ tails tail ]
+
+    globals [ score ]
+
+    patches-own [ seconds-to-live ]
+
+    to setup
+      
+      ;; clear everything
+      clear-all
+      reset-ticks
+      set score 0
+          
+      ;; change all patches to shades of black
+      ask patches [ reset-color ]
+      
+      ;; create the head of the snake
+      create-heads 1
+      ask heads [
+        set heading 0
+        set shape "face happy"
+        set size 1
+        set color blue
+      ]
+
+    end
+
+    to reset-color
+      set pcolor random-float 2
+    end
+
+    ;; TODO on step 1
+    ;; fill in the instructions to make the snake head move north, south, west, and east
+    ;; ==============
+    to north
+    end
+
+    to west
+    end
+
+    to east
+    end
+
+    to south
+    end
+    ;; ==============
+
+    to create-fruit
+      ;; TODO on step 2
+      ;; create fruit randomly on the screen. 
+      ;; Don't make more than 'fruit-max' fruit, though.
+    end
+
+    to eat-fruit
+      ;; TODO on step 3
+      ;; when the snake head is on a fruit, it should eat the fruit.
+      ;; the fruit should disappear and the score should then go up by 1.
+    end
+
+    to extend-tail
+      ;; TODO on step 4
+      ;; the tail should be extended by 1 every time the snake eats a fruit
+    end
+
+    to eat-tail
+      ;; TODO on step 5
+      ;; if the snake head ends up on the same patch as the snake tail, the game should end.
+    end
+
+    to go
+      create-fruit
+      eat-fruit
+      extend-tail
+      eat-tail
+    end
+
+#### But we still have a lot of steps left to fill out. Look through the "TODO" comments to finish up the program.
+### You can download the complete file at [snake.nlogo](https://dl.dropboxusercontent.com/u/3480765/snake-step1.nlogo)
+** Make sure to right click on the link and save it to your Desktop or other location. Possibly something like 'Save Link as' in Chrome.**
+

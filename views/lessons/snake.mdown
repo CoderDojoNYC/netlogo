@@ -15,15 +15,15 @@ Here's the initial setup:
     patches-own [ seconds-to-live ]
 
     to setup
-      
+
       ;; clear everything
       clear-all
       reset-ticks
       set score 0
-          
+
       ;; change all patches to shades of black
       ask patches [ reset-color ]
-      
+
       ;; create the head of the snake
       create-heads 1
       ask heads [
@@ -57,7 +57,7 @@ Here's the initial setup:
 
     to create-fruit
       ;; TODO on step 2
-      ;; create fruit randomly on the screen. 
+      ;; create fruit randomly on the screen.
       ;; Don't make more than 'fruit-max' fruit, though.
     end
 
@@ -85,6 +85,6 @@ Here's the initial setup:
     end
 
 #### But we still have a lot of steps left to fill out. Look through the "TODO" comments to finish up the program.
-### You can download the complete file at [snake.nlogo](https://dl.dropboxusercontent.com/u/3480765/snake-step1.nlogo)
+### You can download the complete file at [snake.nlogo](http://coderdojonyc.s3.amazonaws.com/snake-step1.nlogo)
 ** Make sure to right click on the link and save it to your Desktop or other location. Possibly something like 'Save Link as' in Chrome.**
 
